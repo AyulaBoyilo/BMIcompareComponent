@@ -45,7 +45,7 @@ Users should be able to:
 ### How I did it
 
 Added even listeners to submit links, which validate the input before revealing the next form.
-A simple form validation checks for invalid input. The name is required, height and weight should be numbers. The number input allows for and corrects small mistakes: 24.5kg is coverted to 24.5, but 'twenty four' is not allowed.
+A simple form validation checks for invalid input. The name is required, height and weight should be numbers. The number input allows for and corrects small mistakes: 24.5kg is converted to 24.5, but 'twenty four' is not allowed.
 After the last form, the result is calculated and displayed.
 
 Used Element.insertAdjacentHTML() to add alerts for incorrect input to avoid reparsing which would disable the event listeners.
